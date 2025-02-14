@@ -1,0 +1,43 @@
+# Выбор системы контроля версий
+**Git** является наиболее популярной системой контроля версий с распределённой структурой, удобной интеграцией с GitHub, GitLab и Bitbucket. 
+
+## Преимущества Git:
+- Гибкость в работе с ветками и совместной разработке.
+- Большая экосистема инструментов (CI/CD, code review, автоматизация процессов).
+- Поддержка в крупных командах и open-source проектах.
+- Возможность работы в офлайн-режиме и безопасное хранение изменений.
+
+# Полезные ссылки
+## Git:
+- [Официальная документация Git](https://git-scm.com/doc)
+- [Книга "Pro Git"](https://git-scm.com/book/ru/v2)
+- [GitHub Learning Lab](https://lab.github.com/)
+
+## Flask:
+- [Официальная документация Flask](https://flask.palletsprojects.com/)
+- [Flask Mega-Tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
+- [Flask Best Practices](https://flask.palletsprojects.com/en/2.0.x/tutorial/)
+
+## Elasticsearch и Python:
+- [Elasticsearch Python Client Documentation](https://elasticsearch-py.readthedocs.io/)
+- [Основы Elasticsearch](https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html)
+- [Эффективные запросы в Elasticsearch](https://www.elastic.co/blog/how-to-optimize-your-elasticsearch-queries)
+
+## ETL и микросервисная архитектура:
+- [ETL Best Practices](https://towardsdatascience.com/etl-best-practices-for-modern-data-engineering-74c21724f5f5)
+- [Микросервисная архитектура: обзор](https://martinfowler.com/microservices/)
+- [Принципы масштабируемых ETL-процессов](https://towardsdatascience.com/scalable-etl-strategies-for-data-pipelines-34e83977efbd)
+
+## Общие рекомендации по коду:
+- [PEP 8 – Стиль кодирования Python](https://peps.python.org/pep-0008/)
+- [Рефакторинг кода](https://refactoring.guru/)
+- [Антипаттерны Python](https://realpython.com/python-refactoring/)
+- [Как писать тестируемый код](https://testautomationu.applitools.com/python-unit-testing-tutorial/)
+
+# Итоговые рекомендации
+1. Улучшите SQL-запросы и трансформацию данных в ETL-пайплайне, оптимизируя под большие объемы данных.
+2. Расширьте функциональность поиска в Flask-сервисе, добавив поддержку фильтрации и сортировки.
+3. Добавьте обработку исключений и логирование, следуя best practices (логирование через `logging`, уровни `INFO`, `ERROR`).
+4. Используйте конфигурационные файлы для параметров подключения (например, `.env` файлы и `configparser`).
+5. Напишите тесты для каждого компонента кода, покрывая unit-тестами критические участки.
+6. Оптимизируйте код с учетом рекомендаций PEP8 и улучшите читаемость кода.
